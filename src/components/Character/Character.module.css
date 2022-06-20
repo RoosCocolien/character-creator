@@ -1,12 +1,13 @@
 .character {
     /* Fill the available container height */
     min-height: 500px;
-    max-height: 750px;
+    max-height: 800px;
     width: 100%;
     left: 0px;
     position: fixed;
-    top: 150px;
+    top: 15%;
     z-index: -1;
+    bottom: 5%;
     /* width: 50%; */
     /* left: 50%; */
 }
@@ -15,10 +16,11 @@
     .character {
         z-index: 0;
         min-height: 500px;
-        max-height: 750px;
+        max-height: 800px;
         width: 50%;
         position: fixed;
-        top: 150px;
+        top: 10%;
         left: 50%;
+        bottom: 5%;
     }
 }
