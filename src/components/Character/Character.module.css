@@ -2,8 +2,23 @@
     /* Fill the available container height */
     min-height: 500px;
     max-height: 750px;
-    width: 50%;
+    width: 100%;
+    left: 0px;
     position: fixed;
     top: 150px;
-    left: 50%;
+    z-index: -1;
+    /* width: 50%; */
+    /* left: 50%; */
+}
+
+@media screen and (min-width: 768px) {
+    .character {
+        z-index: 0;
+        min-height: 500px;
+        max-height: 750px;
+        width: 50%;
+        position: fixed;
+        top: 150px;
+        left: 50%;
+    }
 }
