@@ -14,7 +14,7 @@
 }
 
 @media screen and (min-width: 768px) {
-    .constrolePane {
+    .controlPane {
         max-width: 50%;
     }
     .title {}
